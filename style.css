@@ -8,9 +8,32 @@
 
 .container{
      width: 700px;
-     background-color: aquamarine;
+     background-color: rgb(53, 57, 55);
      padding: 30px;
-     margin: 0 auto
+     margin: 0 auto;
+     border-radius: 10px
 }
 
 /* ======common code end here===== */
+
+.calculator{
+     margin-top: 10px;
+}
+
+.calculator__body{
+     margin: 0 auto;
+     width: 300px;
+     height: 400px;
+     border:3px solid black;
+     border-radius: 10px;
+     overflow: hidden;
+     background-color: white;
+}
+
+.calculator__display{
+     height: 80px;
+     width: 100%;
+     background-color: black;
+     /* border-radius: 10px; */
+     color: white;
+}
